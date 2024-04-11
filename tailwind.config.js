@@ -4,5 +4,8 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    textAlign: ["responsive", "hover", "focus"],
+  },
   plugins: [],
-}
+};
